@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE table_name12 PUBLIC "" "table_name12.dtd">
+<table_name12 Data="True">
+<row>
+<column_name1 Type="varchar">'value1'</column_name1>
+<column_name2 Type="int">4</column_name2>
+<column_name3 Type="varchar">'value3'</column_name3>
+</row>
+<row>
+<column_name1 Type="varchar">'value1'</column_name1>
+<column_name2 Type="int">4</column_name2>
+<column_name3 Type="varchar">'value3'</column_name3>
+</row>
+<row>
+<column_name1 Type="varchar">'value2'</column_name1>
+<column_name2 Type="int">5</column_name2>
+<column_name3 Type="varchar">'value4'</column_name3>
+</row>
+<row>
+<column_name1 Type="varchar">'value5'</column_name1>
+<column_name2 Type="int">6</column_name2>
+<column_name3 Type="varchar">'value6'</column_name3>
+</row>
+</table_name12>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT table_name1 (row)+>
+
+<!ATTLIST table_name1 xmlns CDATA #FIXED ''Data NMTOKEN #REQUIRED>
+<!ELEMENT row (column_name1,column_name2,column_name3)>
+
+<!ATTLIST row xmlns CDATA #FIXED ''>
+<!ELEMENT column_name1 (#PCDATA)>
+
+<!ATTLIST column_name1 xmlns CDATA #FIXED 'varchar' Type NMTOKEN #REQUIRED>
+<!ELEMENT column_name2 (#PCDATA)>
+
+<!ATTLIST column_name2 xmlns CDATA #FIXED 'int' Type NMTOKEN #REQUIRED>
+<!ELEMENT column_name3 (#PCDATA)>
+
+<!ATTLIST column_name3 xmlns CDATA #FIXED 'varchar' Type NMTOKEN #REQUIRED>
